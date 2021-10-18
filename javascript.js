@@ -12,11 +12,11 @@
        box.style.width = y;
    });
 
-a = 1;
+var opacity = 1;
 
    document.getElementById("fadeButton").addEventListener("click", function() {
-        a = 1 - 0.1;
-        box.style.opacity = a;
+        opacity = opacity - 0.1;
+        box.style.opacity = opacity;
    });
 
 
