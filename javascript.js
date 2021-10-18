@@ -27,7 +27,7 @@
         box.style.height = "150px";
         box.style.width = "150px";
         box.style.opacity = 1;
-        box.style.backgroundColor = "orange"
+        box.style.backgroundColor = "orange";
    });
 
 
