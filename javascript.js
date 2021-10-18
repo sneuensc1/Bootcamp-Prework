@@ -12,7 +12,11 @@
        box.style.width = y;
    });
 
-var opacity = 1;
+    document.getElementById("blueButton").addEventListener("click", function(){
+            box.style.backgroundColor = blue;
+});
+
+   var opacity = 1;
 
    document.getElementById("fadeButton").addEventListener("click", function() {
         opacity = opacity - 0.1;
