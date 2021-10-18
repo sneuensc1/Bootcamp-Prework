@@ -11,12 +11,10 @@
 
    
     document.getElementById("growButton").addEventListener("click", function(){
-       box.style.height(y)
+       box.style.height(y);
+       box.style.width(y);
    });
-   document.getElementById("growButton").addEventListener("click", fucntion(){
-       box.style.width(y)
-   });
-   
+
    
    
    
