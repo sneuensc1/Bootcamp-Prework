@@ -13,7 +13,7 @@
    });
 
     document.getElementById("blueButton").addEventListener("click", function(){
-            box.style.backgroundColor = blue;
+        box.style.backgroundColor = "blue";
 });
 
    var opacity = 1;
@@ -23,7 +23,12 @@
         box.style.opacity = opacity;
    });
 
-
+   document.getElementById("resetButton").addEventListener("click", function() {
+        box.style.height = "150px";
+        box.style.width = "150px";
+        box.style.opacity = 1;
+        box.style.backgroundColor = "orange"
+   });
 
 
 
