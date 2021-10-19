@@ -24,13 +24,16 @@
    });
 
    document.getElementById("resetButton").addEventListener("click", function() {
-        box.style.height = "150px";
-        box.style.width = "150px";
-        box.style.opacity = 1;
+        x = 150;
+        var y = x + "px";
+        opacity = 1;
+        box.style.height = y;
+        box.style.width = y;
+        box.style.opacity = opacity;
         box.style.backgroundColor = "orange";
    });
 
-
+console.log(box.style)
 
    
   
